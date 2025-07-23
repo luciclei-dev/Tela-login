@@ -103,11 +103,15 @@ h2 {
   outline: none;
   transition: all 0.3s ease; /* Suaviza ajustes de largura no responsivo */
 }
+.form-group input:hover{
+  box-shadow: 0px 0px 4px rgb(5, 250, 70);
+}
 
 input::placeholder {
   color: rgba(216, 232, 214, 0.61);
   opacity: 1;
 }
+
 
 .form-group i {
   position: absolute;
@@ -137,8 +141,12 @@ input::placeholder {
 span {
   color: #f0ebeb;
   text-align: center;
+ 
 }
-
+h1{
+  font-size: 30px;
+  padding-bottom: 10px;
+ }
 .login-btn {
   width: 250px;
   padding: 0.75rem;
